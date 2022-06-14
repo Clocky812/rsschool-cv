@@ -17,6 +17,7 @@
   height: 2rem;
   justify-content:center;
   align-items: center;
+  justify-content: space-between;
 }
 .footerlink1 {
   display: flex;
