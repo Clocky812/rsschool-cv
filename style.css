@@ -1,21 +1,33 @@
 .body {
-font-family: 'Tiro Telugu', serif;
-min-height: 100vh;
-margin: 0; padding: 0;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+  font-family: 'Lobster', cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 .container {
-  max-width: 1440px;
-  margin: 0 auto;
+    max-width: 1440px;
+    margin: 0 auto;
 }
-.title {
-    color: #008055;
-    font-size: 200%;
-    font-family: Arial, Verdana, sans-serif;
-    text-align: center;
-  }
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+}
+.section-item a {
+  color: #dd1a65;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #0de030;
+}
+.html {
+  scroll-behavior: smooth; 
+}
